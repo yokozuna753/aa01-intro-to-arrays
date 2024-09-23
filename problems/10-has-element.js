@@ -5,8 +5,9 @@ return a boolean indicating whether the target element is in the array.
 Solve this using a loop.
 */
 
-// Your code here 
-
+function hasElement(arr, element) {
+  return arr.includes(element);
+}
 
 // console.log(hasElement(['a', 'b', 'c', 'e'], 'c')); // true
 // console.log(hasElement(['a', 'b', 'c', 'e'], 'a')); // true
